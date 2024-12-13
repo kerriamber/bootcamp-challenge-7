@@ -15,11 +15,13 @@ This project uses `@inquirer/prompts` to query the user for project info, and ge
 
 The program makes sure all input is valid, i.e. none of the inputs are empty and the email input is a (mostly) valid email address.
 
+[Video demonstration of the project](https://www.youtube.com/watch?v=r2F-G_qMmyI)
+
 ## Installation
 Clone the repo and run `npm -i` to install the needed packages.
 
 ## Usage
-Run `npm run start` to run the program.
+Run `npm run start` or `node index.js` to run the program.
 
 ## Contributing
 Feel free to submit a pull request for any improvements!
