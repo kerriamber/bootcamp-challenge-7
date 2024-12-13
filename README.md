@@ -11,7 +11,7 @@
 - [Questions?](#questions)
 
 ## Description
-This project uses `@inquirer/prompts` to query the user for project info, and generates a professional README based on the input. I chose to use `@inquirer/prompts` instead of `inquirer` because it is more performant than `inquirer` and `inquirer` is no longer actively developed.
+This project uses [`@inquirer/prompts`](https://www.npmjs.com/package/@inquirer/prompts) to query the user for project info, and generates a professional README based on the input. I chose to use `@inquirer/prompts` instead of the legacy [`inquirer`](https://www.npmjs.com/package/inquirer) package because it is more performant than `inquirer` and is no longer actively developed.
 
 The program makes sure all input is valid, i.e. none of the inputs are empty and the email input is a (mostly) valid email address.
 
